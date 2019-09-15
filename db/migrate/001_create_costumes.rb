@@ -12,9 +12,10 @@ class CreateCostumes < ActiveRecord::Migration[5.0]
     create_table :costumes do |t|
       t.string :name
       t.integer :price
-      t.string :price
-      t.string :price
-      t.string :price
+      t.string :image_url
+      t.string :size
+      t.string :created_at
+      t.string :updated_at
 
     end
   end
