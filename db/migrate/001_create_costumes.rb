@@ -11,7 +11,10 @@ class CreateCostumes < ActiveRecord::Migration[5.0]
   def change
     create_table :costumes do |t|
       t.string :name
-      t.string :part_number
+      t.integer :price
+      t.string :price
+      t.string :price
+      t.string :price
 
     end
   end
