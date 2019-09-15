@@ -15,7 +15,7 @@ class CreateCostumes < ActiveRecord::Migration[5.0]
       t.string :image_url
       t.string :size
       t.datatime :created_at
-      t.string :updated_at
+      t.datatime :updated_at
 
     end
   end
